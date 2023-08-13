@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin:0;
+        }
+        .container{
+            height:100vh;
+            display: grid;
+            gap:3rem;
+            grid-template-columns: 1fr 1fr 1.5fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .item{
+            font-size: 5rem;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            height: 200px;
+            width: 250px;
+            float:right;
+        }
+        .image {
+            background-color: #00B9FF;
+            grid-column: span 2;
+        }
+        .intro {
+            background-color: #03989E;
+            grid-area: 2 / 1 / 3 / 3;
+        }
+
+        .detail {
+            background-color: #E58331;
+            grid-area:1/3/3/4;
+        }
+    </style>
+</head>
+<body>
+        <div id="container">
+            <div id="image item">
+                <img src="./IMG_3376.JPG" alt="My photo">
+            </div>
+            <div id="intro item">
+                <p>
+                    I am <b>Dinesh</b> Mahala final year undergraduate in Chemical Engineering from <b>IIT Kanpur</b>.<br>
+                    My hometown is Hanumangarh, Rajasthan.<br> I completed my secondry education from Arya school in my hometown and senior secondary in Sikar, Rajasthan.
+                    After I cam to college, I did several projects in C++ programming language where I implemented Data Structures and algorithm and learned about Object Oriented Programming(OOPS) concepts.<br>
+                    I have worked in Udghosh’21 as an Events organizer. <br>
+                    <b>Udghosh</b> is an annual sports festival of IIT Kanpur. In which more than 2500 people participated. I led a team of 60 people during the sports event and organized the sports competitions smoothly.<br>
+                    My interest lies in software development and analyst roles.<br> 
+                    Technical Skills: C, C++, HTML, SQL, Excel.
+                </p>
+            </div>
+            <div idd="detail item">
+                Email : <a href="mailto:dineshmahala2001@gmail.com"> dineshmahala2001@gmail.com</a> <br>
+                Linkedin : <a href="https://www.linkedin.com/in/dineshmahala/" target="_blank">Dinesh mahala</a> <br>
+                Github : <a href="https://github.com/dkmahala512" target="_blank">dkmahala512</a> <br>
+                Contact : <a href="tel:8824263807"> 8824263807</a> <br>
+                Instagram : <a href="https://www.instagram.com/d_k_512/" target="_blank"> d_k_512</a>
+            </div>
+            
+        </div>
+</body>
+</html>
